@@ -24,11 +24,20 @@ I wrote an article which explores some of the concepts here, as well as walks th
 
 Clone the repository, set up the virtual environment, and install the required packages
 
+### 1) Python Setup
 ```
-git clone git@github.com:smaameri/multi-doc-chatbot.git
-cd multi-doc-chatbot
+git clone https://github.com/RakeshKumar045/AI_ML_DL_NLP_LLM_2024.git
+cd cd AI_ML_DL_NLP_LLM_2024/multi-doc-chatbot-1
 python3 -m venv .venv
 . .venv/bin/activate
+pip install -r requirements.txt
+```
+### 2) Anaconda Env  Setup
+```
+git clone https://github.com/RakeshKumar045/AI_ML_DL_NLP_LLM_2024.git
+cd cd AI_ML_DL_NLP_LLM_2024/multi-doc-chatbot-1
+conda create --name myenv python=3.11
+conda activate myenv
 pip install -r requirements.txt
 ```
 
