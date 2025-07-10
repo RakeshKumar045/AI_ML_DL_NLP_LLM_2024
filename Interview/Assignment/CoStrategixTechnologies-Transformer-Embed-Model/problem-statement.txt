@@ -1,9 +1,0 @@
-Assignment Details :
-We have a dataset where the last column is the target variable, we want to train an ML model to predict the target,given 7 other features in a sample.
-Each row represents an independent sample.
-Assignment is to train an embedding layer which transforms the 7 dims input to 2 dims output and the output representation should be spatially separable by target variable and easy to visualize.
-
-Assignment expectation:
-Train an embedding layer which transforms the 7 dims input to 2 dims output
-Visualize the embedding output to show that the output of the embedding layer has separate clusters for each target class.
-Validate the embedding layer has generalized with a hold out set.
