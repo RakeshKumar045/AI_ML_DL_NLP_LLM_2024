@@ -4,12 +4,6 @@ def print_hi(name):
     print(f'Hi 45, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-print("12345 windows1")
-
-print("12345 windows2")
-
-
-
 import pandas as pd
 
 # Step 1: Create sample student data
