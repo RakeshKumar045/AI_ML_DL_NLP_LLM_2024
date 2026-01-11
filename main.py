@@ -17,15 +17,13 @@ data = {
     "GPA": [3.5, 3.7, 3.9, 3.2, 3.8]
 }
 
+
+
 # Step 2: Create DataFrame
 df = pd.DataFrame(data)
 
 # Step 3: Save as CSV
 df.to_csv("nikky_dumpy.csv", index=False)
-
-print("CSV file 'students.csv' created successfully!")
-
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
