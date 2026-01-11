@@ -17,6 +17,8 @@ data = {
     "GPA": [3.5, 3.7, 3.9, 3.2, 3.8]
 }
 
+
+
 # Step 2: Create DataFrame
 df = pd.DataFrame(data)
 
