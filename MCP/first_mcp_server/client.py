@@ -57,6 +57,8 @@ async def main():
     )
     print("raka Math response:", math_response['messages'][-1].content)
 
+    print("-----"*20)
+
     # Weather example
     weather_response = await agent.ainvoke(
         {"messages": [{"role": "user", "content": "what is the weather in California?"}]}
